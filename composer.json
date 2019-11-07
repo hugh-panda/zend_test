@@ -1,0 +1,23 @@
+{
+  "name": "test/application",
+  "description": "Test task",
+  "keywords": ["test"],
+  "homepage": "https://github.com/hugh-panda",
+  "license": "Proprietary",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Vladislav",
+      "email": "puppy.major@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Application\\": "Application/src"
+    }
+  }
+}
